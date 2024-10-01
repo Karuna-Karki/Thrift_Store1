@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1038611298849",
+    "project_id": "thrift-store-136a3",
+    "storage_bucket": "thrift-store-136a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038611298849:android:2c1af46cde0039b0788160",
+        "android_client_info": {
+          "package_name": "edu.pims.thriftstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO1VOb7kWY-TJCbfHXpXUxReehYFvx_5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
