@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -48,6 +49,15 @@ public class LoginActivity extends AppCompatActivity {
                 Intent intent = new Intent(LoginActivity.this, register_activity.class);
                 startActivity(intent);
             }
+        });
+
+        ImageView logoImageView = findViewById(R.id.imageView);
+
+        // Set an OnClickListener for the logo ImageView
+        logoImageView.setOnClickListener(v -> {
+            // Navigate to MainActivity when the logo is clicked
+            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+            startActivity(intent);
         });
     }
 

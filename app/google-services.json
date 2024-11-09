@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "1038611298849",
-    "project_id": "thrift-store-136a3",
-    "storage_bucket": "thrift-store-136a3.appspot.com"
+    "project_number": "732986625447",
+    "firebase_url": "https://fir-ca94c-default-rtdb.firebaseio.com",
+    "project_id": "fir-ca94c",
+    "storage_bucket": "fir-ca94c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1038611298849:android:2c1af46cde0039b0788160",
+        "mobilesdk_app_id": "1:732986625447:android:ed40e95e1588824f4f7a82",
         "android_client_info": {
           "package_name": "edu.pims.thriftstore"
         }
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDO1VOb7kWY-TJCbfHXpXUxReehYFvx_5A"
+          "current_key": "AIzaSyAFKcPSh-TPgD2dxsifAL4xEsxKLHu_XoU"
         }
       ],
       "services": {

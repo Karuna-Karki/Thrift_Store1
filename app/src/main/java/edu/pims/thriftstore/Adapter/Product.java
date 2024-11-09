@@ -1,16 +1,20 @@
-package edu.pims.thriftstore;
+package edu.pims.thriftstore.Adapter;
 
 public class Product {
+
     private String name;
     private String description;
     private String price;
-    private int imageResId; // Resource ID for product image
+    private String imageUrl;  // Image URL from Firebase Storage
 
-    public Product(String name, String description, String price, int imageResId) {
+    // No-argument constructor required for Firestore
+    public Product() {}
+
+    public Product(String name, String description, String price, String imageUrl) {
         this.name = name;
         this.description = description;
         this.price = price;
-        this.imageResId = imageResId;
+        this.imageUrl = imageUrl;
     }
 
     public String getName() {
@@ -25,7 +29,7 @@ public class Product {
         return price;
     }
 
-    public int getImageResId() {
-        return imageResId;
+    public String getImageUrl() {
+        return imageUrl;
     }
 }

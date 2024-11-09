@@ -8,7 +8,7 @@
     android:background="@drawable/gradient">
 
     <ImageView
-        android:id="@+id/storeLogo"
+        android:id="@+id/imageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="32dp"
@@ -16,20 +16,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:contentDescription="Store Logo"/>
+        android:contentDescription="Store Logo" />
 
     <TextView
         android:id="@+id/thankYouText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Thankyou for Your Purchase!"
+        android:text="Thank you for Your Purchase!"
         android:textSize="24sp"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/storeLogo"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/successIcon"
@@ -40,20 +40,7 @@
         app:layout_constraintTop_toBottomOf="@id/thankYouText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:contentDescription="Success Icon"/>
-
-    <TextView
-        android:id="@+id/orderSummary"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Total: Rs. 1500"
-        android:textSize="18sp"
-        android:textColor="@color/black"
-        android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@id/successIcon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        android:contentDescription="Success Icon" />
 
     <TextView
         android:id="@+id/donationRequest"
@@ -65,11 +52,10 @@
         android:textColor="@color/black"
         android:gravity="center"
         android:textStyle="italic"
-        app:layout_constraintTop_toBottomOf="@id/orderSummary"
+        app:layout_constraintTop_toBottomOf="@id/successIcon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        android:padding="16dp"/>
+        android:padding="16dp" />
 
     <Button
         android:id="@+id/donateButton"
@@ -80,7 +66,6 @@
         android:text="Donate Now"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/donationRequest" />
 
@@ -93,7 +78,6 @@
         android:text="Continue Shopping"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/donateButton" />
 

@@ -7,6 +7,7 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -109,5 +110,14 @@ public class register_activity extends AppCompatActivity {
                     Log.d("Register","User data successfully done");
                     Toast.makeText(register_activity.this,"Register Sucessfull",Toast.LENGTH_SHORT).show();
                 });
+
+        ImageView logoImageView = findViewById(R.id.imageView);
+
+        // Set an OnClickListener for the logo ImageView
+        logoImageView.setOnClickListener(v -> {
+            // Navigate to MainActivity when the logo is clicked
+            Intent intent = new Intent(register_activity.this, MainActivity.class);
+            startActivity(intent);
+        });
     }
 }
